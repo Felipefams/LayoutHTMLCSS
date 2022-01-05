@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/6035/grid.css'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat'>
+    <link rel='stylesheet' href='https://s3-us-west-2.amazonaws.com/s.cdpn.io/6035/icomoon-scrtpxls.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <link href="https://openlayers.org/en/v4.6.5/css/ol.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/userProfile.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Footer.css">
+
+</head>
+
+<body onLoad="randomizer()" style="padding-top: 0;">
+    <div id="header">
+        <div class="container-fluid">
+            <nav class=" navbar navbar-expand-lg navbar-light bg-transparent">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">MP</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link btn-dark" aria-current="page" href="main.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-dark" href="myProfile.html">Meu Perfil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-dark" href="signContacts.html">Contatos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-dark" href="eventResults.html">Destaques</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link btn-dark" href="calendar.html">Calendario</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search">
+                            <button class="btn btn-dark" type="submit"><a href="userProfile.html"
+                                    style="color: #eef4f7; text-decoration: none;">buscar</a></button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- partial:index.partial.html -->
+    <div class="container whole-profile" style="max-width: none;">
+        <div class="grid_4">
+            <section class="box widget locations">
+                <div class="avatar">
+                    <img src="https://media.istockphoto.com/photos/fuji-mountain-and-cherry-blossoms-in-spring-japan-picture-id1137578281?b=1&k=20&m=1137578281&s=170667a&w=0&h=qGuJR49oVXe1uS9BLyY7iY1orrrQZMJ7a7JM1AVC4gs="
+                        class="card-img" alt="..." style="border-radius: 0.3rem;">
+                </div>
+                <div class="details">
+                    <h5>Japan lovers</h6>
+                        somos o maior grupo de cultura japonesa do site, junte-se a nós e venha fazer parte desse grande
+                        grupo!
+                </div>
+            </section>
+            <section class="box widget calendar">
+                <header class="header">
+                    <h2>Sábado</h2>
+                    <p><span class="icon-arrow-left"></span>Dezembro<span class="icon-arrow-right"></span></p>
+                </header>
+                <article class="days">
+                    <a href="calendar.html" style="text-decoration: none;">
+                        <ul>
+                            <li class="previous">30</li>
+                            <li class="previous">31</li>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li>10</li>
+                            <li>11</li>
+                            <li>12</li>
+                            <li>13</li>
+                            <li>14</li>
+                            <li>15</li>
+                            <li>16</li>
+                            <li>17</li>
+                            <li>18</li>
+                            <li>19</li>
+                            <li>20</li>
+                            <li>21</li>
+                            <li>22</li>
+                            <li>23</li>
+                            <li>24</li>
+                            <li>25</li>
+                            <li>26</li>
+                            <li>27</li>
+                            <li>28</li>
+                            <li>29</li>
+                            <li>30</li>
+                            <li>31</li>
+                            <li class="next">1</li>
+                            <li class="next">2</li>
+                        </ul>
+                    </a>
+                </article>
+            </section>
+        </div>
+        <div class="grid_8">
+            <nav class="box nav">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span class="icon-home"></span><br />
+                            <span class="title">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="message.html">
+                            <span class="icon-images"></span><br />
+                            <span class="title">Galeria</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="message.html">
+                            <span class="icon-bubble"></span><br />
+                            <span class="title">Mensagens</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="icon-music"></span><br />
+                            <span class="title">Musica</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="message.html">
+                            <span class="icon-search"></span><br />
+                            <span class="title">Buscar</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="icon-cog"></span><br />
+                            <span class="title">Configurações</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span class="icon-location"></span><br />
+                            <span class="title">Localização</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="inner_container">
+                <div class="col_1of3">
+
+                    <section class="box widget find" style="margin-top:1.2rem">
+                        <input type="text" name="find" placeholder="Pesquisar eventos" />
+                        <label for="favorite" class="checkbox">
+                            <input type="checkbox" id="favorite" name="favorite" />
+                            Adicionar busca aos favoritos
+                        </label>
+                        <a href="lista_eventos.html" class="btn btn-primary btn-large btn-block">Buscar</a>
+                    </section>
+
+                    <section class="box widget find" style="margin-top:1.2rem">
+                        <a href="#" class="btn btn-primary btn-large btn-block" style="background-color: green;">Entrar
+                            no Grupo</a>
+                    </section>
+
+                    <section class="box widget weather" style="margin-top:1.2rem">
+                        <header class="header">
+                            <div class="temp">
+                                <p id="mbti">Analistas</p><span class="fa fa-cogs"></span>
+                            </div>
+                            <span class="icon-partlycloudy"></span>
+                        </header>
+                        <article>
+                            <h2>MBTI médio do grupo</h2>
+                        </article>
+                    </section>
+                </div>
+                <div class="col_2of3">
+                    <article class="box post" style="margin-top:1.2rem">
+                        <div class="map">
+                            <img src="assets/img/desk.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="details">
+                            <h2>Ultimo Post:</h2>
+                            <p>
+                                <b>フィリップ -</b>
+                                Oi galera sou novo por aqui,espero encontrar novas amizades!
+                            </p>
+                            <p>
+                                <b>Shinobu -</b>
+                                Bem vindo!ようこそ!
+                            </p>
+                            <p>
+                                <b>拉麺-</b>
+                                ようこそ! sinta-se em casa!
+                            </p>
+                        </div>
+                    </article>
+                </div>
+                <div class="col_2of3">
+                </div>
+                <div class="col_1of3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+    <script src="https://openlayers.org/en/v4.6.5/build/ol.js"></script>
+    <script>
+
+        var r = document.querySelector(':root');
+        var rs = getComputedStyle(r);
+        var analysts = rs.getPropertyValue('--analysts_color');
+        var diplomats = rs.getPropertyValue('--diplomats_color');
+        var sentinels = rs.getPropertyValue('--sentinels_color');
+        var explorers = rs.getPropertyValue('--explorers_color');
+        const mbti = document.getElementById("mbti");
+        const texto = mbti.innerText;
+
+        function randomizer() {
+            r.style.setProperty('--default-page-color', `${analysts}`);
+
+            if (numero == 0 || numero == 1 || numero == 2 || numero == 3) {
+                r.style.setProperty('--default-page-color', `${analysts}`);
+            }
+            else if (numero == 4 || numero == 5 || numero == 6 || numero == 7) {
+                r.style.setProperty('--default-page-color', `${diplomats}`);
+            }
+            else if (numero == 8 || numero == 9 || numero == 10 || numero == 11) {
+                r.style.setProperty('--default-page-color', `${sentinels}`);
+            }
+            else if (numero == 12 || numero == 13 || numero == 14 || numero == 15) {
+                r.style.setProperty('--default-page-color', `${explorers}`);
+            }
+
+        }
+
+    </script>
+    <!-- partial -->
+    <!--script da navbar!-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
